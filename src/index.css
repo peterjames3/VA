@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn--primary {
+    @apply transition-all rounded-md cursor-pointer bg-primary px-6 py-5 text-xl font-medium delay-300 hover:bg-black hover:text-white;
+  }
+
+}
